@@ -1,0 +1,25 @@
+{
+  "name": "live-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "allow-methods": "^4.1.1",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "expres": "^0.0.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.5"
+  }
+}
